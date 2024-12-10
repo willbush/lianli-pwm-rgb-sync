@@ -11,7 +11,7 @@ For more features and device support check out [uni-sync](https://github.com/Eig
 
 ## build and run
 
-Build dependencies `pkg-config` and `udev` are needed. A nix flake is provided with everything needed. Just `nix develop` or use `direnv`.
+Dependencies `pkg-config` and `udev` are needed at build / run-time. A nix flake is provided with everything needed. Just `nix develop` or use `direnv allow .`.
 
 ```sh
 $ cargo build --release
