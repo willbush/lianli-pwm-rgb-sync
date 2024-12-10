@@ -30,6 +30,8 @@
 
           buildInputs = with pkgs; [
             systemd # for udev
+          ];
+          nativeBuildInputs = with pkgs; [
             pkg-config
           ];
         };
