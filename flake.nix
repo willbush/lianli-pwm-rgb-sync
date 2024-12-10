@@ -1,5 +1,5 @@
 {
-  description = "Configures LianLi-UNI SL-Infinity to sync RGB and fans from the motherboard";
+  description = "A tiny hack that enables the RGB and PWM fan sync for the LianLi-UNI SL-Infinity";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
