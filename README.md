@@ -18,7 +18,7 @@ $ cargo build --release
 $ sudo ./target/release/lianli-pwm-rgb-sync
 ```
 
-Note the program has to elevated privileges.
+Note the program has to run with elevated privileges.
 
 # Future
 
