@@ -29,7 +29,7 @@
           strictDeps = true;
 
           buildInputs = with pkgs; [
-            udev
+            systemd # for udev
             pkg-config
           ];
         };
