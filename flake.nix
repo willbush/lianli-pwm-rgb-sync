@@ -57,8 +57,10 @@
         devShells.default = craneLib.devShell {
           checks = self.checks.${system};
           packages = with pkgs; [
-            rust-analyzer
             bacon
+            cargo-edit # provides `cargo upgrade`
+            cargo-outdated
+            rust-analyzer
           ];
         };
       }
