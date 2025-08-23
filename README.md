@@ -1,3 +1,5 @@
+Retired in favor of using [hidapitester](https://github.com/todbot/hidapitester) see [commit](https://github.com/willbush/system/commit/c70cc7466c7a8322ddb7bd7a3461be0a4d1d93c5)
+
 # lianli-pwm-rgb-sync
 
 A tiny hack that enables the following for the LianLi-UNI SL-Infinity:
@@ -19,11 +21,3 @@ $ sudo ./target/release/lianli-pwm-rgb-sync
 ```
 
 Note the program has to run with elevated privileges.
-
-# Future
-
-I might replace this with a script that calls [hidapitester](https://github.com/todbot/hidapitester) in the future if it makes its way into [nixpkgs](https://github.com/NixOS/nixpkgs).
-
-# NixOS systemd service
-
-[Here](https://github.com/willbush/system/commit/91c8e1b76852125406ce0c2b152f94592d07ca8a) is an example of how to run this with systemd in NixOS.
